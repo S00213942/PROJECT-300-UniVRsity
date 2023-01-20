@@ -23,7 +23,7 @@ public class ChatBubble3D : MonoBehaviour {
 
         chatBubbleTransform.GetComponent<ChatBubble3D>().Setup(iconType, text);
 
-        Destroy(chatBubbleTransform.gameObject, 6f);
+        Destroy(chatBubbleTransform.gameObject, 2f);
     }
 
 
@@ -55,7 +55,7 @@ public class ChatBubble3D : MonoBehaviour {
         textMeshPro.ForceMeshUpdate();
         Vector2 textSize = textMeshPro.GetRenderedValues(false);
 
-        Vector2 padding = new Vector2(7f, 3f);
+        Vector2 padding = new Vector2(5f, 3f);
         backgroundSpriteRenderer.size = textSize + padding;
         backgroundCube.localScale = textSize + padding * .5f;
 

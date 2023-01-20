@@ -2810,7 +2810,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 31b8d4e47c1e47648a6d56021ca8aa17, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -2859,7 +2859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce2c820c7e922f4daa4bae2a20918b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 567196227}
   headLookAtTransform: {fileID: 715738885}
 --- !u!114 &-6183992652116547041
 MonoBehaviour:
@@ -2873,6 +2872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288376ef709d4484dbdd78802d2aa56d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactText: 
 --- !u!1 &2066238882337077308
 GameObject:
   m_ObjectHideFlags: 0
