@@ -13,5 +13,6 @@ public class PlayerInventory : MonoBehaviour
     {
         NumberOfCollectables++;
         OnCollectableCollected.Invoke(this);
+        Object.DontDestroyOnLoad(this.gameObject);
     }
 }

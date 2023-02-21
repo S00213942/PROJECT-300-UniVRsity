@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+
     [Header("Movement")]
     public float moveSpeed;
 
@@ -24,6 +25,8 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+
+        
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }

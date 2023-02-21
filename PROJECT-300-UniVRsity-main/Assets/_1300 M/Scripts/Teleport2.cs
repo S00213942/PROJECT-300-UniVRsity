@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Teleport : MonoBehaviour
+public class Teleport2 : MonoBehaviour
 {
    
     void OnTriggerEnter(Collider player)
@@ -11,8 +11,8 @@ public class Teleport : MonoBehaviour
 
         if (player.gameObject.tag == "Player")
         {
-        
-            SceneManager.LoadScene(3);
+       
+            SceneManager.LoadScene(2);
             //SceneManager.MoveGameObjectToScene(player.gameObject);
             
         }

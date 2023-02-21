@@ -9,11 +9,14 @@ public class InventoryUI : MonoBehaviour
     void Start()
     {
         collectableText = GetComponent<TextMeshProUGUI>();
+        Object.DontDestroyOnLoad(this.gameObject);
     }
 
     public void UpdateCollectableText(PlayerInventory playerInventory)
     {
         collectableText.text = playerInventory.NumberOfCollectables.ToString();
+        Object.DontDestroyOnLoad(this.gameObject);
     }
+
 
 }
