@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Teleport : MonoBehaviour
 {
-   
-    void OnTriggerEnter(Collider player)
+    public Transform teleportDestination;
+    void OnTriggerEnter(Collider teleport)
     {
 
-        if (player.gameObject.tag == "Player")
+        if (teleport.gameObject.tag == "Teleport")
         {
-        
-            SceneManager.LoadScene(3);
-            //SceneManager.MoveGameObjectToScene(player.gameObject);
+
+            transform.position = teleportDestination.position;
             
         }
     }

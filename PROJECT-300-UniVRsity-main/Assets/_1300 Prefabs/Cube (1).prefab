@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 5910471009217583608}
   - component: {fileID: 5910471009217583609}
   - component: {fileID: 5910471009217583610}
-  - component: {fileID: 5910471009217583590}
+  - component: {fileID: 572210942}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5910471009217583590
+--- !u!114 &572210942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,3 +110,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f04907808c3284984e70983c8ae931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportDestination: {fileID: 0}
