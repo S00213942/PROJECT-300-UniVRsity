@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_1300 M/Scenes/Teleport1.unity
+    path: Assets/300 Scenes/Teleport1.unity
     guid: b92b60486b872654dade663a288ba3d8
   - enabled: 1
-    path: Assets/_1300 M/Scenes/Teleport2.unity
+    path: Assets/300 Scenes/Teleport2.unity
     guid: 0e19b1b7d1575d14ebdcbccbfc232e65
   - enabled: 1
-    path: Assets/_1300 M/Scenes/VideoPlayer.unity
+    path: Assets/300 Scenes/VideoPlayer.unity
     guid: 389ffb6136140424799cc0c083308269
   - enabled: 1
-    path: Assets/_1300 M/Scenes/SWAG.unity
+    path: Assets/300 Scenes/SWAG.unity
     guid: fa2a306558ccf20408b6be6e688dc86f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
