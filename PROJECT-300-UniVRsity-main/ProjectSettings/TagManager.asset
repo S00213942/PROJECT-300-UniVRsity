@@ -7,6 +7,11 @@ TagManager:
   - NPC
   - Waypoint
   - Teleport
+  - Teleport1
+  - Teleport2
+  - Teleport3
+  - Teleport4
+  - Teleport6
   layers:
   - Default
   - TransparentFX
