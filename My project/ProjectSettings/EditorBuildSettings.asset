@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/300 Prefabs/Register/Register.unity
+    guid: b6cef1b1c32e15b4691a2c8494916353
+  - enabled: 0
+    path: Assets/300 Scenes/Model Tests.unity
+    guid: d6223d83f63244c4db8d70b08c66f6d7
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.3.0-pre.1/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 1
+    path: Assets/300 Scenes/Model Tests 1.unity
+    guid: 1a8a65b19db26a5489608bc817911cc2
+  - enabled: 1
+    path: Assets/300 Scenes/uniVRsity.unity
+    guid: d21c3a69cf43b3f40ac6ab0362613445
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 506daccaebaec484992555d1a9d05a16, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3cba00d49fc86014ca857d7bb61517c4, type: 2}
